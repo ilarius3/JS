@@ -1,7 +1,13 @@
 function count(a, b, c) {
-    return result = add(a, b) - c;
+    let result = subtract(add(a, b), c);
+    return result;
+    
     function add(a, b) {
         return a + b;
+    }
+    
+    function subtract(a, b) {
+        return a - b;
     }
 }
 
